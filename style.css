@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navMenu{
+    height: 100px;
+    width: 100%;
+
+    background-color: #303030;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #BABABA;
+}
+
+#linksMenu{
+    display: flex;
+    width: 45%;
+    justify-content:space-around;
+
+    margin-left: 5%;
+}
+
+.linkNav{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Inter";
+    text-decoration: none;
+}
+
+    .linkNav:hover{
+        color: #CCCCCC;
+    }
+
+#navMenu button{
+    margin-right: 5%;
+    background-color:#0C70F2;
+    border: 0px;
+
+    height: 40px;
+    width: 80px;
+
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Inter";
+
+    box-shadow: 3px 2px 4px #0c70f240;
+
+    cursor: pointer;
+}
