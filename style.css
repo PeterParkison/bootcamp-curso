@@ -3,6 +3,11 @@
     padding: 0px;
 }
 
+body{
+    background: linear-gradient(180deg, #0C70F280 19.91%, #303030 24.84%), #303030;
+    background-repeat: no-repeat;
+}
+
 #navMenu{
     height: 100px;
     width: 100%;
@@ -52,4 +57,8 @@
     box-shadow: 3px 2px 4px #0c70f240;
 
     cursor: pointer;
+}
+
+#contentBody{
+    background: linear-gradient(180deg, #0C70F280 50%, #303030 50%);
 }
