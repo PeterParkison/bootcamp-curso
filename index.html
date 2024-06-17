@@ -23,6 +23,7 @@
         <button>Login</button>
     </nav>
     <section id="contentSection">
+        <!--TEXTO COMEÇO-->
         <header>
             <h1>BOOTCAMP DNC</h1>
 
@@ -33,6 +34,7 @@
                 <span class="griff">BACK-END, FRONT-END & BANCO DE DADOS.</span>                
             </h2>
         </header>
+        <!--FORMS-->
         <form action="">
             <div class="formGroup">
                 <label for="pnome">Nome:</label>
@@ -45,8 +47,17 @@
             </div>
 
             <div class="formGroup">
-                <label for="pnome">Área de Interesse:</label>
-                <input type="text" name="pnome" id="pnome" placeholder="Insira seu nome aqui">
+                <label for="areaForm">Área de Interesse:</label>
+                <div id="checkboxItens">
+                    <input type="checkbox" name="cbFrontEnd" id="cbFrontEnd">
+                    <label for="cbFrontEnd">Front-End</label>
+
+                    <input type="checkbox" name="cbBrackEnd" id="cbBackEnd">
+                    <label for="cbBackEnd">Back-End</label>
+
+                    <input type="checkbox" name="cbBancoDados" id="cbBancoDados">
+                    <label for="cbBancoDados">Banco de Dados</label>
+                </div>
             </div>
 
             <div class="formGroup">
@@ -63,6 +74,8 @@
                 <label for="phraseForm">Insira uma frase criativa aqui:</label>
                 <input type="text" name="phraseForm" id="phraseForm" placeholder="Qual frase criativa você gostaria de falar? :)">
             </div>
+
+            <input type="submit" value="Cadastrar">
         </form>
     </section>
 </body>
