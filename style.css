@@ -1,3 +1,11 @@
+:root{
+    --azulDnc: #0C70F2;
+    --pretoDnc: #303030;
+    --cinzaHover: #CCCCCC;
+
+    --fontePadrao: "Inter"; 
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -12,7 +20,7 @@ body{
     height: 100px;
     width: 100%;
 
-    background-color: #303030;
+    background-color: var(--pretoDnc);
 
     display: flex;
     align-items: center;
@@ -33,17 +41,17 @@ body{
     color: #FFFFFF;
     font-size: 25px;
     font-weight: 600;
-    font-family: "Inter";
+    font-family: var(--fontePadrao);
     text-decoration: none;
 }
 
     .linkNav:hover{
-        color: #CCCCCC;
+        color: var(--cinzaHover);
     }
 
 #navMenu button{
     margin-right: 5%;
-    background-color:#0C70F2;
+    background-color: var(--azulDnc);
     border: 0px;
 
     height: 40px;
@@ -52,7 +60,7 @@ body{
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 600;
-    font-family: "Inter";
+    font-family: var(--fontePadrao);
 
     box-shadow: 3px 2px 4px #0c70f240;
 
