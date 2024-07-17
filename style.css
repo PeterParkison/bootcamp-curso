@@ -105,5 +105,31 @@ body{
             font-size: 40px;
             font-weight: 400;
 
-            margin-bottom: 100px;
+            margin-bottom: 150px;
         }
+
+/*FORMS*/
+
+form{
+    color: white;
+    font-family: var(--fontePadrao);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+    .formGroup{
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    form input{
+        border-radius: 10px;
+        height: 30px;
+        border: 0px;
+        
+        font-size: 20px;
+        padding: 15px;
+    }
