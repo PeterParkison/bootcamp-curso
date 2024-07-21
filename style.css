@@ -115,6 +115,8 @@ form{
     font-family: var(--fontePadrao);
     font-size: 30px;
     font-weight: 600;
+
+    width: 600px;
 }
 
     .formGroup{
@@ -133,3 +135,42 @@ form{
         font-size: 20px;
         padding: 15px;
     }
+
+    form input::placeholder{
+        color: #39393980 50%;
+    }
+
+    form label{
+        margin: 10px 0px 10px 0px;
+    }
+
+
+#checkboxItens {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+    #checkboxItens label{
+        font-size: 25px;
+    }
+
+input[type="checkbox"]{
+    transform: scale(1.7);
+}
+    
+input[type="submit"]{
+    background-color:#0C70F2E5;
+
+    width: 100%;
+    height: 64px;
+
+    color: white;
+    font-size: 32px;
+    text-align: center;
+
+    margin-top: 80px;
+    box-shadow: 0px 6px 4px #0C70F240;
+    
+    cursor: pointer;
+}
