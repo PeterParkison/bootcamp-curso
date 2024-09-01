@@ -272,3 +272,79 @@ footer #line2{
         footer #line2 a:hover{
             color: var(--cinzaHover);
         }
+
+/* MEDIA QUERRY */
+
+@media only screen and (max-width: 600px){
+
+    /* HEADER */
+    #navMenu{
+        flex-direction: column;
+        height: auto;
+
+        align-items: center;
+
+        text-align: center;
+    }    
+        
+    #linksMenu{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+
+        #linksMenu a{
+            height: 30px;
+
+            font-size: 20px;
+        }
+
+    #navMenu button{
+        width: 25%;
+        margin: 0px 0px 5px 0px;
+
+        font-size: 20px;
+    }
+
+    /* SECTION */
+    #contentSection header h1{
+        font-size: 40px;
+    }
+
+    #contentSection header h2{
+        font-size: 20px;
+    }
+
+    /* FORMS */
+    form{
+        width: 95%;
+        font-size: 15px;
+    }
+
+    #checkboxItens label{
+        font-size: 15px;
+    }
+
+    /* FOOTER */
+    footer #line1{
+        flex-direction: column;
+    }
+
+    footer nav{
+        height: 450px;
+    }
+
+    footer #adress{
+        font-size: 15px;
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
+    footer #line2{
+        height: 30px;
+    }
+
+        footer #line2 a{
+            font-size: 15px;
+        }
+}
